@@ -23,7 +23,7 @@
               <a href="tel:0900206430">(+66) 90-020-6430</a>
             </div>
             <div class="field is-flex">
-              <b-icon icon="line" pack='fab' />
+              <b-icon icon="line" pack="fab" />
               <a href="http://line.me/ti/p/~krist7599555">krist7599555</a>
             </div>
             <br />
@@ -35,8 +35,12 @@
               <b>2018 - 2019</b>
               <p>
                 President of IT, Front-end Developer @
-                <b-tooltip label="Student Government of Chulalongkorn University">
-                  <a href="https://facebook.com/sgcu.obj" target="_blank">SGCU (อบจ.)</a>
+                <b-tooltip
+                  label="Student Government of Chulalongkorn University"
+                >
+                  <a href="https://facebook.com/sgcu.obj" target="_blank"
+                    >SGCU (อบจ.)</a
+                  >
                 </b-tooltip>
               </p>
               <ul>
@@ -62,11 +66,12 @@
               <b>2018 - Present</b>
               <p>
                 Vice Camp Precident, PR, Content @
-                <b-tooltip label="Chula-Rakkaew Volunteer to improve Nan province">
-                  <a
-                    href="https://facebook.com/sgcu.obj"
-                    target="_blank"
-                  >Chula Hugs Nan (จุฬาฮักน่าน.)</a>
+                <b-tooltip
+                  label="Chula-Rakkaew Volunteer to improve Nan province"
+                >
+                  <a href="https://facebook.com/sgcu.obj" target="_blank"
+                    >Chula Hugs Nan (จุฬาฮักน่าน.)</a
+                  >
                 </b-tooltip>
               </p>
               <ul>
@@ -95,7 +100,9 @@
               <p>
                 Guitarist @
                 <b-tooltip label="Intania music club">
-                  <a href="https://facebook.com/sgcu.obj" target="_blank">IMC (Intania music club)</a>
+                  <a href="https://facebook.com/sgcu.obj" target="_blank"
+                    >IMC (Intania music club)</a
+                  >
                 </b-tooltip>
               </p>
               <ul>
@@ -111,13 +118,12 @@
                   src="https://scontent.fbkk22-3.fna.fbcdn.net/v/t1.0-9/68751577_1143291259198723_6281173045134491648_o.jpg?_nc_cat=103&_nc_eui2=AeE3XVFM4PTPLAAnZG8_3k-WwTIdJ_5Qs7GOq1EGngGXVRZ_9m9reXYakXykQI8kVYCan-AG3rTNl_8K8agukKS_Fg34mdLLirfA6jjfDGwM2g&_nc_oc=AQmVKpDvb-JIgIYbPd8UVdccRly0bhA1eb7cLpdVBf1sLat-AgZ-LhuijcN_-l9P5w8&_nc_ht=scontent.fbkk22-3.fna&oh=c7b556284f61afa889fcfe8d7f01da9c&oe=5E19AC2E"
                 />
                 <FigureImage
-                  :video='true'
-                  alt='ขี้หึง cover'
+                  :video="true"
+                  alt="ขี้หึง cover"
                   src="https://instagram.fbkk22-3.fna.fbcdn.net/v/t50.2886-16/28689620_1872395129478431_8944262208439713792_n.mp4?_nc_ht=instagram.fbkk22-3.fna.fbcdn.net&_nc_cat=111&oe=5DA012EA&oh=5e6c6ec44eeff335a9bfb3b4b30d805e"
                   type="video/mp4"
-                  href='https://www.instagram.com/p/Bf_UO0gAHuX/'
+                  href="https://www.instagram.com/p/Bf_UO0gAHuX/"
                 />
-                </video>
               </template>
             </StepContent>
           </Step>
@@ -129,8 +135,12 @@
               <b>2018</b>
               <p>
                 Sivel Medal @
-                <b-tooltip label="Student Government of Chulalongkorn University">
-                  <a href="https://facebook.com/sgcu.obj" target="_blank">TechJam KBTG (central)</a>
+                <b-tooltip
+                  label="Student Government of Chulalongkorn University"
+                >
+                  <a href="https://facebook.com/sgcu.obj" target="_blank"
+                    >TechJam KBTG (central)</a
+                  >
                 </b-tooltip>
               </p>
               <ul>
@@ -155,8 +165,12 @@
               <b>2015</b>
               <p>
                 Sivel Medal @
-                <b-tooltip label="Student Government of Chulalongkorn University">
-                  <a href="https://www.psu.ac.th/th/node/7348" target="_blank">TOI 12</a>
+                <b-tooltip
+                  label="Student Government of Chulalongkorn University"
+                >
+                  <a href="https://www.psu.ac.th/th/node/7348" target="_blank"
+                    >TOI 12</a
+                  >
                 </b-tooltip>
               </p>
               <ul>

@@ -1,10 +1,10 @@
 <template>
-  <div class='steps-wrapper'>
+  <div class="steps-wrapper">
     <h1 class="is-size-3 has-text-weight-bold is-uppercase">
-      {{label}}
+      {{ label }}
       <!-- <b-icon :icon='icon' size="is-large"/> -->
     </h1>
-    <hr>
+    <hr />
     <ul class="steps is-vertical">
       <slot />
     </ul>
@@ -13,7 +13,9 @@
 
 <script>
 export default {
-  props: ['label', 'icon']
+  props: {
+    label: { type: String, default: '[label]' },
+    icon: { type: String, default: '[icon]' }
+  }
 }
 </script>
-

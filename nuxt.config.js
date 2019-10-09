@@ -1,4 +1,4 @@
-import Fiber from 'fibers'
+// import Fiber from 'fibers'
 import Sass from 'sass'
 
 const customSass = {

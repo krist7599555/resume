@@ -1,15 +1,19 @@
 <template>
   <li class="steps-segment">
     <span href="#" class="steps-marker"></span>
-    <div class="steps-content" style='margin-left: 3rem;'>
-      <slot/>
-      <b-collapse v-if='!!$slots.collapse' :open="false" aria-id="contentIdForA11y1" position="is-bottom">
-        <a class="showmore" slot="trigger" slot-scope="props">
+    <div class="steps-content" style="margin-left: 3rem;">
+      <slot />
+      <b-collapse
+        v-if="!!$slots.collapse"
+        :open="false"
+        aria-id="contentIdForA11y1"
+        position="is-bottom"
+      >
+        <a slot="trigger" slot-scope="props" class="showmore">
           <b-icon :icon="!props.open ? 'caret-down' : 'caret-up'"></b-icon>
         </a>
-        <slot name='collapse'/>
+        <slot name="collapse" />
       </b-collapse>
-
     </div>
   </li>
 </template>
@@ -36,5 +40,4 @@ figcaption {
   display: inline-block;
   text-align: right;
 }
-
 </style>
