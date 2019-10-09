@@ -1,0 +1,9 @@
+@import './vars';
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+
+@import '~bulma-steps-component/bulma-steps.sass';
+
+.steps.is-vertical .steps-content {
+  margin-left: 2rem;
+}
