@@ -1,6 +1,6 @@
 # resume
 
-> Krist Pornpairin Resume
+> Krist Pornpairin Resume from NUXT.JS
 
 ## Build Setup
 
